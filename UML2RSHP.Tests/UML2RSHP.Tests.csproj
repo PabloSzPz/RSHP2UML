@@ -32,6 +32,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Cake.ConnectionFactory">
+      <HintPath>..\dll\Engine\Cake.ConnectionFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Cake.Engine">
+      <HintPath>..\dll\Engine\Cake.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Cake.IConnectionFactory">
+      <HintPath>..\dll\Engine\Cake.IConnectionFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Cake.Utilities">
+      <HintPath>..\dll\Engine\Cake.Utilities.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dll\nunit.framework.dll</HintPath>
@@ -47,6 +59,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TrcCore">
+      <HintPath>..\dll\Borrower\TrcCore.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Uml2RshpTests.cs" />
