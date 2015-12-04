@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Cake.ConnectionFactory
+</name>
+</assembly>
+<members>
+<member name="P:Cake.ConnectionFactory.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Cake.ConnectionFactory.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Cake.ConnectionFactory.My.Resources.Resources.CONNECTION_EXCEPTION_FORMAT">
+	<summary>
+  Looks up a localized string similar to Connection error found:
+{0}
+
+Please check your connection parameters..
+</summary>
+</member><member name="P:Cake.ConnectionFactory.My.Resources.Resources.CONNECTION_INCORRECT_DATABASE_STRUCTURE">
+	<summary>
+  Looks up a localized string similar to Database error
+The database does not have the RQS database structure, please use a database backup from the website http://www.reusecompany.com or a Microsoft Access database included in the installation pack..
+</summary>
+</member><member name="P:Cake.ConnectionFactory.My.Resources.Resources.CONNECTION_VALID_BUT_EMPTY_DATABASE">
+	<summary>
+  Looks up a localized string similar to Database data error
+The database does not have any ontology information. Please connect to this database with knowledgeMANAGER to store the initial ontology information..
+</summary>
+</member><member name="T:Cake.ConnectionFactory.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Cake.ConnectionFactory.CakeOleDbConnection.TranslateISNULL(System.Data.IDbCommand@)">
+	<summary>
+ Replaces the SQL Server syntax "ISNULL(MetricPerTypeId, 0)" into the MS Access one "IIF(ISNULL(MetricPerTypeId), 0)"
+ </summary>
+</member><member name="M:Cake.ConnectionFactory.CakeOleDbConnection.TranslateISNULL_Private(System.String@)">
+	<summary>
+ Replaces the SQL Server syntax "ISNULL(MetricPerTypeId, 0)" into the MS Access one "IIF(ISNULL(MetricPerTypeId), 0)"
+ </summary>
+</member><member name="M:Cake.ConnectionFactory.CakeOleDbOracleConnection.GetBytes(System.String)">
+	<summary>
+ Transforms the input string got from the Oracle database in the NCLOB column into a Byte Array ( Byte() )
+ </summary>
+	<param name="str">Input string got from the Oracle database in the NCLOB column</param>
+	<returns>The byte array got after converting the Oracle database in the NCLOB column in a suitable byte array</returns>
+	<remarks>
+ 
+ To be IMPROVED because we do a manual conversion from what we have in the input string to the byte Array, with these methods 
+ Encoding.UTF7.GetBytes(str)
+ Encoding.UTF8.GetBytes(str)
+ Encoding.Unicode.GetBytes(str)
+ Encoding.UTF32.GetBytes(str)
+ 
+ doesn't return the input byte() what we have stored in the Save() Function
+ 
+ </remarks>
+</member>
+</members>
+</doc>
