@@ -17,9 +17,5 @@ namespace UML2RSHP_GUI
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            UML2RSHP.Uml2RshpProcessor.TransformUml2Rshp()
-        }
     }
 }
