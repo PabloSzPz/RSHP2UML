@@ -7,7 +7,7 @@ using NUnit.Framework;
 namespace UML2RSHP.Tests
 {
     public class Uml2RshpTests
-    {
+    {  
         [Test]
         public void ConnectionEngine() { 
             Cake.Engine.CAKEEngine engine;
