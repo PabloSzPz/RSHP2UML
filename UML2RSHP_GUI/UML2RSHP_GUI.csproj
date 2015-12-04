@@ -35,16 +35,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Cake.ConnectionFactory">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.ConnectionFactory.dll</HintPath>
+      <HintPath>..\dll\Engine\Cake.ConnectionFactory.dll</HintPath>
     </Reference>
     <Reference Include="Cake.Engine">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.Engine.dll</HintPath>
+      <HintPath>..\dll\Engine\Cake.Engine.dll</HintPath>
     </Reference>
     <Reference Include="Cake.IConnectionFactory">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.IConnectionFactory.dll</HintPath>
+      <HintPath>..\dll\Engine\Cake.IConnectionFactory.dll</HintPath>
     </Reference>
     <Reference Include="Cake.Utilities">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.Utilities.dll</HintPath>
+      <HintPath>..\dll\Engine\Cake.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework, Version=3.0.5797.27539, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -61,7 +61,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="TrcCore">
-      <HintPath>..\..\..\..\Desktop\Borrower\TrcCore.dll</HintPath>
+      <HintPath>..\dll\Borrower\TrcCore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
