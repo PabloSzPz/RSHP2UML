@@ -33,19 +33,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Cake.ConnectionFactory">
-      <HintPath>..\..\Engine\Cake.ConnectionFactory.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.ConnectionFactory.dll</HintPath>
     </Reference>
     <Reference Include="Cake.Engine">
-      <HintPath>..\..\Engine\Cake.Engine.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.Engine.dll</HintPath>
     </Reference>
     <Reference Include="Cake.IConnectionFactory">
-      <HintPath>..\..\Engine\Cake.IConnectionFactory.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.IConnectionFactory.dll</HintPath>
     </Reference>
     <Reference Include="Cake.Utilities">
-      <HintPath>..\..\Engine\Cake.Utilities.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\UML2RSHP\UML2RSHP\bin\Cake.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
-    <Reference Include="nunit.mocks, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\framework\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.mocks, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\framework\nunit.mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,7 +58,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="TrcCore">
-      <HintPath>..\..\Borrower\TrcCore.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Borrower\TrcCore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
