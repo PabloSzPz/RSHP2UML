@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML2RSHP", "UML2RSHP\UML2RSHP.csproj", "{9137FCB6-6743-45AC-9B9D-E1A2715D855F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML2RSHP.Tests", "UML2RSHP.Tests\UML2RSHP.Tests.csproj", "{4544262D-7A06-46B6-8B30-1D7C40896EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML2RSHP_GUI", "UML2RSHP_GUI\UML2RSHP_GUI.csproj", "{564CC698-34A2-4083-950C-2D64697279A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9137FCB6-6743-45AC-9B9D-E1A2715D855F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9137FCB6-6743-45AC-9B9D-E1A2715D855F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9137FCB6-6743-45AC-9B9D-E1A2715D855F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9137FCB6-6743-45AC-9B9D-E1A2715D855F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4544262D-7A06-46B6-8B30-1D7C40896EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4544262D-7A06-46B6-8B30-1D7C40896EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4544262D-7A06-46B6-8B30-1D7C40896EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4544262D-7A06-46B6-8B30-1D7C40896EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564CC698-34A2-4083-950C-2D64697279A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564CC698-34A2-4083-950C-2D64697279A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564CC698-34A2-4083-950C-2D64697279A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564CC698-34A2-4083-950C-2D64697279A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
